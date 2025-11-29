@@ -1,11 +1,12 @@
 import { DownloadLink } from '@/lib/types';
+import { ReactNode } from 'react';
 
 interface DownloadButtonsProps {
   links: DownloadLink[];
 }
 
 const platformConfig: Record<DownloadLink['platform'], {
-  icon: JSX.Element;
+  icon: ReactNode;
   label: string;
   bgClass: string;
 }> = {
