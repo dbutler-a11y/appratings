@@ -1,0 +1,1141 @@
+import { App, Category, Tag } from '@/lib/types';
+
+export const categories: Category[] = [
+  {
+    slug: 'productivity',
+    name: 'Productivity',
+    description: 'Apps that help you get more done in less time.',
+    iconEmoji: '⚡',
+  },
+  {
+    slug: 'photography',
+    name: 'Photography',
+    description: 'Photo editing, camera apps, and visual creativity tools.',
+    iconEmoji: '📸',
+  },
+  {
+    slug: 'ai-tools',
+    name: 'AI Tools',
+    description: 'Applications powered by artificial intelligence.',
+    iconEmoji: '🤖',
+  },
+  {
+    slug: 'design',
+    name: 'Design',
+    description: 'UI/UX design, prototyping, and creative tools.',
+    iconEmoji: '🎨',
+  },
+  {
+    slug: 'communication',
+    name: 'Communication',
+    description: 'Team chat, video calls, and collaboration tools.',
+    iconEmoji: '💬',
+  },
+  {
+    slug: 'note-taking',
+    name: 'Note Taking',
+    description: 'Apps for capturing ideas, notes, and knowledge management.',
+    iconEmoji: '📝',
+  },
+];
+
+export const tags: Tag[] = [
+  { slug: 'cross-platform', name: 'Cross-Platform' },
+  { slug: 'offline-capable', name: 'Offline Capable' },
+  { slug: 'ai-powered', name: 'AI Powered' },
+  { slug: 'free-tier', name: 'Free Tier' },
+  { slug: 'open-source', name: 'Open Source' },
+];
+
+export const apps: App[] = [
+  {
+    id: 'notion-001',
+    slug: 'notion',
+    name: 'Notion',
+    developer: 'Notion Labs, Inc.',
+    developerUrl: 'https://notion.so',
+
+    category: 'productivity',
+    tags: ['cross-platform', 'offline-capable', 'free-tier'],
+
+    pricing: 'freemium',
+    priceDisplay: 'Free / $10 per month',
+
+    iconUrl: '/images/apps/notion/icon.png',
+    heroImageUrl: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=1200&h=600&fit=crop',
+    screenshots: [
+      {
+        src: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop',
+        alt: 'Notion dashboard with project boards',
+        caption: 'Flexible workspace for any project',
+        platform: 'web',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop',
+        alt: 'Notion mobile app on iOS',
+        caption: 'Full functionality on mobile',
+        platform: 'ios',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=600&fit=crop',
+        alt: 'Notion database view',
+        caption: 'Powerful database capabilities',
+        platform: 'web',
+      },
+    ],
+
+    videoReview: {
+      provider: 'youtube',
+      embedUrl: 'https://www.youtube.com/embed/aA7si7AmPkY',
+      videoId: 'aA7si7AmPkY',
+      title: 'Notion Tutorial for Beginners - Complete Guide',
+      duration: 'PT15M30S',
+    },
+
+    downloadLinks: [
+      {
+        platform: 'ios',
+        url: 'https://apps.apple.com/app/notion/id1232780281',
+        label: 'Download for iPhone',
+      },
+      {
+        platform: 'android',
+        url: 'https://play.google.com/store/apps/details?id=notion.id',
+      },
+      {
+        platform: 'web',
+        url: 'https://notion.so',
+      },
+      {
+        platform: 'macos',
+        url: 'https://notion.so/desktop',
+      },
+      {
+        platform: 'windows',
+        url: 'https://notion.so/desktop',
+      },
+    ],
+
+    summary: 'Notion is an all-in-one workspace that combines notes, docs, wikis, and project management into a single, flexible platform.',
+
+    reviewContent: `
+## Overview
+
+Notion has become the Swiss Army knife of productivity apps, and for good reason. It combines the best aspects of note-taking apps, project management tools, and databases into a single, cohesive platform.
+
+## What Makes It Stand Out
+
+The block-based editor is incredibly flexible. Every piece of content is a block that can be moved, transformed, and linked. Want to turn a bullet list into a kanban board? Two clicks. Need to embed a Figma file next to your meeting notes? Drop it right in.
+
+### Database Power
+
+Where Notion truly shines is its database functionality. You can create relational databases, link entries across tables, and create multiple views (table, board, calendar, gallery, timeline) of the same data.
+
+## Performance Considerations
+
+The app can feel sluggish with very large workspaces. Offline mode, while improved, still has sync quirks. For enterprise users, this may require careful workspace architecture.
+
+## Verdict
+
+For individuals and small teams who want flexibility over rigid structure, Notion is unmatched. Power users will appreciate the depth; casual users might find the learning curve steep.
+    `,
+
+    pros: [
+      'Extremely flexible block-based system',
+      'Powerful relational databases',
+      'Excellent cross-platform support',
+      'Generous free tier',
+      'Active template community',
+    ],
+    cons: [
+      'Can be slow with large workspaces',
+      'Offline mode needs improvement',
+      'Steep learning curve for advanced features',
+      'No true end-to-end encryption',
+    ],
+    verdict: 'Best for power users who want one app to rule them all.',
+
+    rating: {
+      overall: 4.5,
+      usability: 4,
+      performance: 3.5,
+      features: 5,
+      value: 4.5,
+      design: 4.5,
+    },
+    userRatingCount: 15420,
+
+    seo: {
+      title: 'Notion Review 2024: The Ultimate All-in-One Workspace',
+      description: 'In-depth Notion review covering features, pricing, pros & cons. Is Notion the right productivity app for you? Find out in our comprehensive analysis.',
+      ogImage: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=1200&h=630&fit=crop',
+      keywords: ['notion review', 'notion app', 'productivity apps', 'project management', 'note taking app'],
+    },
+
+    publishedAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-03-20T14:30:00Z',
+    featured: true,
+    editorsPick: true,
+  },
+
+  {
+    id: 'darkroom-002',
+    slug: 'darkroom',
+    name: 'Darkroom',
+    developer: 'Bergen Co.',
+    developerUrl: 'https://darkroom.co',
+
+    category: 'photography',
+    tags: ['ai-powered', 'cross-platform'],
+
+    pricing: 'freemium',
+    priceDisplay: 'Free / $49.99 per year',
+
+    iconUrl: '/images/apps/darkroom/icon.png',
+    heroImageUrl: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1200&h=600&fit=crop',
+    screenshots: [
+      {
+        src: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&h=600&fit=crop',
+        alt: 'Darkroom editing interface',
+        caption: 'Professional-grade editing tools',
+        platform: 'ios',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1493863641943-9b68992a8d07?w=800&h=600&fit=crop',
+        alt: 'Darkroom batch editing',
+        caption: 'Batch edit hundreds of photos',
+        platform: 'ios',
+      },
+    ],
+
+    videoReview: {
+      provider: 'youtube',
+      embedUrl: 'https://www.youtube.com/embed/m_MaJDK3VNE',
+      videoId: 'm_MaJDK3VNE',
+      title: 'Darkroom Photo Editor Review - Best iPhone Photo Editor?',
+      duration: 'PT10M45S',
+    },
+
+    downloadLinks: [
+      {
+        platform: 'ios',
+        url: 'https://apps.apple.com/app/darkroom-photo-video-editor/id953286746',
+      },
+      {
+        platform: 'macos',
+        url: 'https://apps.apple.com/app/darkroom-photo-video-editor/id953286746',
+      },
+    ],
+
+    summary: 'Darkroom brings professional photo editing to iPhone and Mac with an intuitive interface and powerful features like batch editing and RAW support.',
+
+    reviewContent: `
+## A True Mobile Darkroom
+
+Darkroom has quietly become one of the most capable photo editors on iOS. It strikes a rare balance: powerful enough for professionals, approachable enough for casual photographers.
+
+## RAW Support That Actually Works
+
+Unlike many mobile editors that claim RAW support, Darkroom delivers the real thing. Full RAW editing with the dynamic range you'd expect, plus Apple ProRAW support on newer iPhones.
+
+## The Batch Editing Advantage
+
+Edit one photo, apply to hundreds. The batch editing system is genuinely time-saving for anyone processing multiple images from a shoot.
+
+## Verdict
+
+If you're serious about mobile photography and want desktop-class editing without leaving your phone, Darkroom is the answer.
+    `,
+
+    pros: [
+      'Genuine RAW and ProRAW support',
+      'Excellent batch editing',
+      'Beautiful, intuitive interface',
+      'iCloud sync across devices',
+      'No subscription required for core features',
+    ],
+    cons: [
+      'iOS/Mac only (no Android or Windows)',
+      'Premium features require subscription',
+      'Limited video editing capabilities',
+    ],
+    verdict: 'The best photo editor for Apple ecosystem users.',
+
+    rating: {
+      overall: 4.7,
+      usability: 5,
+      performance: 4.5,
+      features: 4.5,
+      value: 4,
+      design: 5,
+    },
+    userRatingCount: 8930,
+
+    seo: {
+      title: 'Darkroom Review: Professional Photo Editing on iPhone & Mac',
+      description: 'Comprehensive Darkroom app review. Explore RAW editing, batch processing, and why it is the top photo editor for Apple users.',
+      ogImage: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1200&h=630&fit=crop',
+      keywords: ['darkroom app', 'photo editor ios', 'raw photo editing iphone', 'best photo app'],
+    },
+
+    publishedAt: '2024-02-10T09:00:00Z',
+    updatedAt: '2024-02-10T09:00:00Z',
+    featured: false,
+    editorsPick: true,
+  },
+
+  {
+    id: 'runway-003',
+    slug: 'runway-ml',
+    name: 'Runway ML',
+    developer: 'Runway AI, Inc.',
+    developerUrl: 'https://runwayml.com',
+
+    category: 'ai-tools',
+    tags: ['ai-powered', 'free-tier'],
+
+    pricing: 'freemium',
+    priceDisplay: 'Free tier / $15+ per month',
+
+    iconUrl: '/images/apps/runway/icon.png',
+    heroImageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=600&fit=crop',
+    screenshots: [
+      {
+        src: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
+        alt: 'Runway Gen-2 video generation',
+        caption: 'Generate videos from text prompts',
+        platform: 'web',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1686191128892-3b37add4afc1?w=800&h=600&fit=crop',
+        alt: 'Runway inpainting tool',
+        caption: 'Remove and replace anything in your video',
+        platform: 'web',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?w=800&h=600&fit=crop',
+        alt: 'Runway motion brush',
+        caption: 'Add motion to still images',
+        platform: 'web',
+      },
+    ],
+
+    videoReview: {
+      provider: 'youtube',
+      embedUrl: 'https://www.youtube.com/embed/3H2d6lLO4P8',
+      videoId: '3H2d6lLO4P8',
+      title: 'Runway Gen-3 Alpha - Complete Guide to AI Video Generation',
+      duration: 'PT12M30S',
+    },
+
+    downloadLinks: [
+      {
+        platform: 'web',
+        url: 'https://runwayml.com',
+        label: 'Try Runway Free',
+      },
+    ],
+
+    summary: 'Runway ML is a browser-based AI creative suite offering text-to-video, video editing, and generative AI tools for creators.',
+
+    reviewContent: `
+## The AI Creative Revolution
+
+Runway isn't just another AI tool—it's a glimpse into the future of creative work. From Gen-2's text-to-video capabilities to intelligent video editing, Runway packages cutting-edge AI into a surprisingly usable interface.
+
+## Gen-2: Text to Video
+
+The headline feature. Describe what you want to see, and Runway generates a video. Is it perfect? No. Is it magic? Absolutely. The technology is evolving rapidly, and Runway stays at the cutting edge.
+
+## Beyond Generation
+
+Video inpainting, motion tracking, background removal—Runway offers a suite of AI-powered editing tools that would have required expensive software and hours of work just years ago.
+
+## The Cost Consideration
+
+AI processing is expensive, and it shows in the pricing. The free tier is limited, and heavy users will find costs adding up quickly. This is enterprise-grade technology with enterprise-grade pricing.
+
+## Verdict
+
+For professionals and serious creators exploring AI-augmented workflows, Runway is essential. For casual users, the price may be prohibitive.
+    `,
+
+    pros: [
+      'Cutting-edge AI video generation',
+      'Powerful suite of editing tools',
+      'Browser-based, no installation needed',
+      'Regular model updates and improvements',
+      'Active community and tutorials',
+    ],
+    cons: [
+      'Expensive for heavy use',
+      'Generated videos have quality limitations',
+      'Requires good internet connection',
+      'Learning curve for advanced features',
+    ],
+    verdict: 'The most accessible gateway to AI video creation.',
+
+    rating: {
+      overall: 4.3,
+      usability: 4,
+      performance: 4,
+      features: 5,
+      value: 3.5,
+      design: 4.5,
+    },
+    userRatingCount: 4210,
+
+    seo: {
+      title: 'Runway ML Review: AI Video Generation & Editing Platform',
+      description: 'Full Runway ML review covering Gen-2, AI video editing, pricing, and whether it is worth the investment for creators.',
+      ogImage: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop',
+      keywords: ['runway ml', 'ai video generator', 'text to video', 'ai editing', 'runway gen-2'],
+    },
+
+    publishedAt: '2024-03-05T11:00:00Z',
+    updatedAt: '2024-03-15T16:00:00Z',
+    featured: true,
+    editorsPick: false,
+  },
+
+  // ─────────────────────────────────────────────────────────────────
+  // FIGMA - Design
+  // ─────────────────────────────────────────────────────────────────
+  {
+    id: 'figma-004',
+    slug: 'figma',
+    name: 'Figma',
+    developer: 'Figma, Inc.',
+    developerUrl: 'https://figma.com',
+
+    category: 'design',
+    tags: ['cross-platform', 'free-tier'],
+
+    pricing: 'freemium',
+    priceDisplay: 'Free / $15 per editor/month',
+
+    iconUrl: '/images/apps/figma/icon.png',
+    heroImageUrl: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=1200&h=600&fit=crop',
+    screenshots: [
+      {
+        src: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=800&h=600&fit=crop',
+        alt: 'Figma design interface',
+        caption: 'Collaborative design in real-time',
+        platform: 'web',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=800&h=600&fit=crop',
+        alt: 'Figma prototyping',
+        caption: 'Build interactive prototypes',
+        platform: 'web',
+      },
+    ],
+
+    videoReview: {
+      provider: 'youtube',
+      embedUrl: 'https://www.youtube.com/embed/Cx2dkpBxst8',
+      videoId: 'Cx2dkpBxst8',
+      title: 'Figma Tutorial for Beginners - Full Course',
+      duration: 'PT24M15S',
+    },
+
+    downloadLinks: [
+      {
+        platform: 'web',
+        url: 'https://figma.com',
+      },
+      {
+        platform: 'macos',
+        url: 'https://figma.com/downloads/',
+      },
+      {
+        platform: 'windows',
+        url: 'https://figma.com/downloads/',
+      },
+    ],
+
+    summary: 'Figma is a collaborative interface design tool that runs in the browser, enabling real-time collaboration for design teams of any size.',
+
+    reviewContent: `
+## The Design Tool That Changed Everything
+
+Figma didn't just create another design tool—it reimagined how design teams work together. By putting everything in the browser, Figma eliminated the friction of file sharing, version control, and platform compatibility.
+
+## Real-Time Collaboration
+
+Watch your teammates' cursors move in real-time. Leave comments directly on designs. No more "final_v3_ACTUAL_FINAL.fig" files. This is the killer feature that made Figma the industry standard.
+
+## Component System
+
+Figma's component and variant system is incredibly powerful. Create a button once, use it everywhere, update it globally. The auto-layout feature alone saves hours of manual resizing.
+
+## Dev Mode
+
+The recently added Dev Mode bridges the gap between design and development. Developers can inspect designs, grab CSS, and export assets without bothering designers.
+
+## The Free Tier
+
+Unlike competitors, Figma's free tier is genuinely usable. Three projects, unlimited viewers, and full feature access. It's how they captured the student and indie market.
+    `,
+
+    pros: [
+      'Best-in-class real-time collaboration',
+      'Runs in browser - no installation needed',
+      'Powerful component and variant system',
+      'Generous free tier',
+      'Excellent plugin ecosystem',
+      'Dev Mode for developer handoff',
+    ],
+    cons: [
+      'Requires internet connection',
+      'Can be slow with very large files',
+      'Learning curve for advanced features',
+      'Pricing adds up for large teams',
+    ],
+    verdict: 'The industry standard for UI/UX design. If your team is still using something else, it is time to switch.',
+
+    rating: {
+      overall: 4.8,
+      usability: 4.5,
+      performance: 4,
+      features: 5,
+      value: 4.5,
+      design: 5,
+    },
+    userRatingCount: 28500,
+
+    seo: {
+      title: 'Figma Review 2024: The Best Collaborative Design Tool',
+      description: 'Complete Figma review covering features, pricing, collaboration, and why it is the industry standard for UI/UX design teams.',
+      ogImage: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=1200&h=630&fit=crop',
+      keywords: ['figma review', 'figma vs sketch', 'ui design tool', 'collaborative design', 'figma pricing'],
+    },
+
+    publishedAt: '2024-02-20T10:00:00Z',
+    updatedAt: '2024-03-25T14:00:00Z',
+    featured: true,
+    editorsPick: true,
+  },
+
+  // ─────────────────────────────────────────────────────────────────
+  // SLACK - Communication
+  // ─────────────────────────────────────────────────────────────────
+  {
+    id: 'slack-005',
+    slug: 'slack',
+    name: 'Slack',
+    developer: 'Salesforce',
+    developerUrl: 'https://slack.com',
+
+    category: 'communication',
+    tags: ['cross-platform', 'free-tier'],
+
+    pricing: 'freemium',
+    priceDisplay: 'Free / $8.75 per user/month',
+
+    iconUrl: '/images/apps/slack/icon.png',
+    heroImageUrl: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&h=600&fit=crop',
+    screenshots: [
+      {
+        src: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop',
+        alt: 'Slack messaging interface',
+        caption: 'Organized conversations in channels',
+        platform: 'web',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1552581234-26160f608093?w=800&h=600&fit=crop',
+        alt: 'Slack on mobile',
+        caption: 'Stay connected on the go',
+        platform: 'ios',
+      },
+    ],
+
+    videoReview: {
+      provider: 'youtube',
+      embedUrl: 'https://www.youtube.com/embed/EYqxQGmQkVw',
+      videoId: 'EYqxQGmQkVw',
+      title: 'How to Use Slack - Complete Beginners Guide',
+      duration: 'PT18M00S',
+    },
+
+    downloadLinks: [
+      {
+        platform: 'ios',
+        url: 'https://apps.apple.com/app/slack/id618783545',
+      },
+      {
+        platform: 'android',
+        url: 'https://play.google.com/store/apps/details?id=com.Slack',
+      },
+      {
+        platform: 'web',
+        url: 'https://slack.com',
+      },
+      {
+        platform: 'macos',
+        url: 'https://slack.com/downloads/mac',
+      },
+      {
+        platform: 'windows',
+        url: 'https://slack.com/downloads/windows',
+      },
+    ],
+
+    summary: 'Slack is a channel-based messaging platform that brings team communication together, replacing scattered emails with organized, searchable conversations.',
+
+    reviewContent: `
+## The App That Killed Email (Almost)
+
+Slack transformed how teams communicate. Instead of endless email threads, conversations happen in organized channels. Instead of CCing everyone, you mention who needs to see it.
+
+## Channel Organization
+
+The channel system is Slack's core innovation. Create channels for projects, teams, topics, or watercooler chat. Everything is searchable, everything has context.
+
+## Integration Heaven
+
+Slack connects to everything. GitHub, Jira, Google Drive, Salesforce—over 2,400 apps integrate directly. Your notifications, updates, and workflows all flow into one place.
+
+## Huddles and Clips
+
+Quick voice calls (huddles) and video messages (clips) reduce meeting fatigue. Sometimes a 30-second clip explains what would take 10 messages.
+
+## The Noise Problem
+
+Slack's biggest weakness is also its strength. Without discipline, it becomes a firehose of notifications. Learning to use Do Not Disturb, mute channels, and set boundaries is essential.
+    `,
+
+    pros: [
+      'Excellent channel organization',
+      'Massive integration ecosystem',
+      'Powerful search functionality',
+      'Huddles for quick voice chats',
+      'Works on every platform',
+    ],
+    cons: [
+      'Can become overwhelming without discipline',
+      'Free tier limited to 90 days of history',
+      'Resource heavy on desktop',
+      'Pricing per user adds up quickly',
+    ],
+    verdict: 'Still the gold standard for team chat, but requires intentional usage to avoid notification overload.',
+
+    rating: {
+      overall: 4.4,
+      usability: 4.5,
+      performance: 3.5,
+      features: 5,
+      value: 3.5,
+      design: 4.5,
+    },
+    userRatingCount: 45200,
+
+    seo: {
+      title: 'Slack Review 2024: Team Communication Platform',
+      description: 'In-depth Slack review covering channels, integrations, pricing, and how it compares to Microsoft Teams and Discord.',
+      ogImage: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&h=630&fit=crop',
+      keywords: ['slack review', 'slack vs teams', 'team chat app', 'slack pricing', 'business messaging'],
+    },
+
+    publishedAt: '2024-01-25T09:00:00Z',
+    updatedAt: '2024-02-15T11:00:00Z',
+    featured: false,
+    editorsPick: false,
+  },
+
+  // ─────────────────────────────────────────────────────────────────
+  // OBSIDIAN - Note Taking
+  // ─────────────────────────────────────────────────────────────────
+  {
+    id: 'obsidian-006',
+    slug: 'obsidian',
+    name: 'Obsidian',
+    developer: 'Obsidian',
+    developerUrl: 'https://obsidian.md',
+
+    category: 'note-taking',
+    tags: ['offline-capable', 'free-tier', 'cross-platform'],
+
+    pricing: 'freemium',
+    priceDisplay: 'Free / $50 per year for Sync',
+
+    iconUrl: '/images/apps/obsidian/icon.png',
+    heroImageUrl: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=1200&h=600&fit=crop',
+    screenshots: [
+      {
+        src: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=600&fit=crop',
+        alt: 'Obsidian graph view',
+        caption: 'Visualize connections between notes',
+        platform: 'desktop',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&h=600&fit=crop',
+        alt: 'Obsidian editor',
+        caption: 'Clean markdown editing experience',
+        platform: 'desktop',
+      },
+    ],
+
+    videoReview: {
+      provider: 'youtube',
+      embedUrl: 'https://www.youtube.com/embed/OUrOfIqvGS4',
+      videoId: 'OUrOfIqvGS4',
+      title: 'Obsidian - The Complete Beginners Guide',
+      duration: 'PT20M30S',
+    },
+
+    downloadLinks: [
+      {
+        platform: 'macos',
+        url: 'https://obsidian.md/download',
+      },
+      {
+        platform: 'windows',
+        url: 'https://obsidian.md/download',
+      },
+      {
+        platform: 'linux',
+        url: 'https://obsidian.md/download',
+      },
+      {
+        platform: 'ios',
+        url: 'https://apps.apple.com/app/obsidian-connected-notes/id1557175442',
+      },
+      {
+        platform: 'android',
+        url: 'https://play.google.com/store/apps/details?id=md.obsidian',
+      },
+    ],
+
+    summary: 'Obsidian is a powerful knowledge base that works on local Markdown files, featuring bidirectional linking and a graph view to visualize your thinking.',
+
+    reviewContent: `
+## Your Second Brain, Owned by You
+
+Obsidian takes a fundamentally different approach to note-taking. Your notes are plain Markdown files stored locally on your device. No lock-in, no proprietary formats, complete ownership.
+
+## Bidirectional Linking
+
+The magic of Obsidian is [[linking notes together]]. Create connections as you write, and watch a web of knowledge emerge. The graph view visualizes these connections beautifully.
+
+## Plugin Ecosystem
+
+The community plugin ecosystem is staggering. Daily notes, Kanban boards, Dataview queries, Excalidraw integration—if you can imagine it, there's probably a plugin for it.
+
+## Local-First Philosophy
+
+Your data never leaves your device unless you choose to sync it. This means blazing fast performance, offline access, and complete privacy. Use iCloud, Dropbox, or Obsidian Sync to sync across devices.
+
+## Learning Curve
+
+Obsidian rewards investment. The more you learn about linking, templates, and plugins, the more powerful it becomes. But this also means it's not as immediately approachable as simpler alternatives.
+    `,
+
+    pros: [
+      'Local-first, you own your data',
+      'Incredibly powerful plugin system',
+      'Beautiful graph visualization',
+      'Plain Markdown files, no lock-in',
+      'Fast and works offline',
+      'Free for personal use',
+    ],
+    cons: [
+      'Steep learning curve',
+      'Sync requires paid subscription or DIY',
+      'Can be overwhelming with too many plugins',
+      'Mobile app less polished than desktop',
+    ],
+    verdict: 'The ultimate tool for serious note-takers and knowledge workers willing to invest time in learning it.',
+
+    rating: {
+      overall: 4.6,
+      usability: 3.5,
+      performance: 5,
+      features: 5,
+      value: 5,
+      design: 4.5,
+    },
+    userRatingCount: 18900,
+
+    seo: {
+      title: 'Obsidian Review 2024: The Best Personal Knowledge Base',
+      description: 'Complete Obsidian review covering bidirectional linking, plugins, graph view, and why it is the top choice for building a second brain.',
+      ogImage: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=1200&h=630&fit=crop',
+      keywords: ['obsidian review', 'obsidian vs notion', 'note taking app', 'second brain', 'knowledge management'],
+    },
+
+    publishedAt: '2024-02-05T10:00:00Z',
+    updatedAt: '2024-03-10T15:00:00Z',
+    featured: true,
+    editorsPick: true,
+  },
+
+  // ─────────────────────────────────────────────────────────────────
+  // TODOIST - Productivity
+  // ─────────────────────────────────────────────────────────────────
+  {
+    id: 'todoist-007',
+    slug: 'todoist',
+    name: 'Todoist',
+    developer: 'Doist',
+    developerUrl: 'https://todoist.com',
+
+    category: 'productivity',
+    tags: ['cross-platform', 'free-tier', 'offline-capable'],
+
+    pricing: 'freemium',
+    priceDisplay: 'Free / $5 per month',
+
+    iconUrl: '/images/apps/todoist/icon.png',
+    heroImageUrl: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&h=600&fit=crop',
+    screenshots: [
+      {
+        src: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop',
+        alt: 'Todoist task list',
+        caption: 'Clean, focused task management',
+        platform: 'web',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=800&h=600&fit=crop',
+        alt: 'Todoist projects view',
+        caption: 'Organize tasks into projects',
+        platform: 'ios',
+      },
+    ],
+
+    videoReview: {
+      provider: 'youtube',
+      embedUrl: 'https://www.youtube.com/embed/vxDNkAhKtic',
+      videoId: 'vxDNkAhKtic',
+      title: 'Todoist Tutorial - Complete Beginners Guide',
+      duration: 'PT15M45S',
+    },
+
+    downloadLinks: [
+      {
+        platform: 'ios',
+        url: 'https://apps.apple.com/app/todoist-to-do-list-planner/id585829637',
+      },
+      {
+        platform: 'android',
+        url: 'https://play.google.com/store/apps/details?id=com.todoist',
+      },
+      {
+        platform: 'web',
+        url: 'https://todoist.com',
+      },
+      {
+        platform: 'macos',
+        url: 'https://todoist.com/downloads',
+      },
+      {
+        platform: 'windows',
+        url: 'https://todoist.com/downloads',
+      },
+    ],
+
+    summary: 'Todoist is a beautifully simple yet surprisingly powerful task manager that helps you organize work and life with projects, labels, and natural language input.',
+
+    reviewContent: `
+## Simplicity That Scales
+
+Todoist proves that a task manager doesn't need to be complicated to be powerful. The interface is clean and focused, but dig deeper and you'll find a robust system that can handle complex workflows.
+
+## Natural Language Input
+
+Type "Call mom every Sunday at 2pm" and Todoist understands. This natural language processing makes adding tasks incredibly fast. It's the feature that keeps users loyal.
+
+## Projects and Labels
+
+Organize tasks into projects, add labels for context, and use filters to create custom views. The system is flexible enough to implement GTD, bullet journaling, or whatever system works for you.
+
+## Karma and Streaks
+
+Todoist gamifies productivity with karma points and streaks. Some find it motivating; others ignore it. It's there if you want it.
+
+## What It Doesn't Do
+
+Todoist is a task manager, not a project management tool. No Gantt charts, no time tracking, no team resource allocation. If you need those, look elsewhere.
+    `,
+
+    pros: [
+      'Excellent natural language input',
+      'Clean, distraction-free design',
+      'Available on every platform',
+      'Powerful filters and labels',
+      'Generous free tier',
+      'Quick add from anywhere',
+    ],
+    cons: [
+      'Limited project management features',
+      'No built-in time tracking',
+      'Reminders require premium',
+      'Collaboration features are basic',
+    ],
+    verdict: 'The best task manager for individuals who want simplicity without sacrificing power.',
+
+    rating: {
+      overall: 4.5,
+      usability: 5,
+      performance: 4.5,
+      features: 4,
+      value: 4.5,
+      design: 5,
+    },
+    userRatingCount: 32100,
+
+    seo: {
+      title: 'Todoist Review 2024: Simple Yet Powerful Task Management',
+      description: 'Full Todoist review covering natural language input, projects, filters, and how it compares to Things 3 and TickTick.',
+      ogImage: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&h=630&fit=crop',
+      keywords: ['todoist review', 'todoist vs things', 'task manager', 'todo app', 'productivity app'],
+    },
+
+    publishedAt: '2024-01-20T08:00:00Z',
+    updatedAt: '2024-02-28T10:00:00Z',
+    featured: false,
+    editorsPick: true,
+  },
+
+  // ─────────────────────────────────────────────────────────────────
+  // LINEAR - Productivity/Design
+  // ─────────────────────────────────────────────────────────────────
+  {
+    id: 'linear-008',
+    slug: 'linear',
+    name: 'Linear',
+    developer: 'Linear Orbit, Inc.',
+    developerUrl: 'https://linear.app',
+
+    category: 'productivity',
+    tags: ['cross-platform', 'free-tier'],
+
+    pricing: 'freemium',
+    priceDisplay: 'Free / $10 per user/month',
+
+    iconUrl: '/images/apps/linear/icon.png',
+    heroImageUrl: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1200&h=600&fit=crop',
+    screenshots: [
+      {
+        src: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&h=600&fit=crop',
+        alt: 'Linear issue tracking',
+        caption: 'Beautiful issue tracking interface',
+        platform: 'web',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop',
+        alt: 'Linear roadmap view',
+        caption: 'Plan your product roadmap',
+        platform: 'web',
+      },
+    ],
+
+    videoReview: {
+      provider: 'youtube',
+      embedUrl: 'https://www.youtube.com/embed/aOQDfdOuD4w',
+      videoId: 'aOQDfdOuD4w',
+      title: 'Linear App Tutorial - Complete Project Management Guide',
+      duration: 'PT14M20S',
+    },
+
+    downloadLinks: [
+      {
+        platform: 'web',
+        url: 'https://linear.app',
+      },
+      {
+        platform: 'macos',
+        url: 'https://linear.app/download',
+      },
+      {
+        platform: 'ios',
+        url: 'https://apps.apple.com/app/linear-app/id1507953823',
+      },
+    ],
+
+    summary: 'Linear is a modern issue tracking tool built for high-performance teams, featuring keyboard-first design, blazing speed, and thoughtful workflows.',
+
+    reviewContent: `
+## The Anti-Jira
+
+Linear was built by engineers frustrated with slow, bloated issue trackers. Every interaction is instant. Every shortcut is intuitive. It's what Jira should have been.
+
+## Keyboard-First Design
+
+Power users will love Linear. Press Cmd+K and you can do anything—create issues, navigate, assign, change status—without touching the mouse. It's remarkably efficient.
+
+## Cycles and Roadmaps
+
+Linear's cycle system (like sprints, but better) and roadmap features help teams plan without drowning in project management overhead. It's opinionated in the right ways.
+
+## GitHub Integration
+
+The GitHub integration is seamless. Link PRs to issues, auto-close issues on merge, and keep everything in sync without manual effort.
+
+## Not for Everyone
+
+Linear is designed for software teams. If you're not building software, the issue-centric model might not fit. And the opinionated workflow means less flexibility than some alternatives.
+    `,
+
+    pros: [
+      'Incredibly fast interface',
+      'Keyboard shortcuts for everything',
+      'Beautiful, thoughtful design',
+      'Excellent GitHub integration',
+      'Cycles and roadmaps built-in',
+    ],
+    cons: [
+      'Primarily for software teams',
+      'Less flexible than Jira',
+      'Mobile app is limited',
+      'Learning curve for keyboard shortcuts',
+    ],
+    verdict: 'The best issue tracker for fast-moving software teams who value speed and design.',
+
+    rating: {
+      overall: 4.7,
+      usability: 4.5,
+      performance: 5,
+      features: 4.5,
+      value: 4,
+      design: 5,
+    },
+    userRatingCount: 8700,
+
+    seo: {
+      title: 'Linear Review 2024: Modern Issue Tracking for Software Teams',
+      description: 'Linear app review covering keyboard shortcuts, cycles, roadmaps, and why teams are switching from Jira.',
+      ogImage: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1200&h=630&fit=crop',
+      keywords: ['linear app review', 'linear vs jira', 'issue tracking', 'project management', 'software development'],
+    },
+
+    publishedAt: '2024-03-01T09:00:00Z',
+    updatedAt: '2024-03-20T11:00:00Z',
+    featured: true,
+    editorsPick: false,
+  },
+
+  // ─────────────────────────────────────────────────────────────────
+  // CHATGPT - AI Tools
+  // ─────────────────────────────────────────────────────────────────
+  {
+    id: 'chatgpt-009',
+    slug: 'chatgpt',
+    name: 'ChatGPT',
+    developer: 'OpenAI',
+    developerUrl: 'https://openai.com',
+
+    category: 'ai-tools',
+    tags: ['ai-powered', 'free-tier', 'cross-platform'],
+
+    pricing: 'freemium',
+    priceDisplay: 'Free / $20 per month for Plus',
+
+    iconUrl: '/images/apps/chatgpt/icon.png',
+    heroImageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=600&fit=crop',
+    screenshots: [
+      {
+        src: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
+        alt: 'ChatGPT conversation interface',
+        caption: 'Natural conversation with AI',
+        platform: 'web',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?w=800&h=600&fit=crop',
+        alt: 'ChatGPT code generation',
+        caption: 'Generate and explain code',
+        platform: 'web',
+      },
+    ],
+
+    videoReview: {
+      provider: 'youtube',
+      embedUrl: 'https://www.youtube.com/embed/JTxsNm9IdYU',
+      videoId: 'JTxsNm9IdYU',
+      title: 'ChatGPT Tutorial - Complete Guide for Beginners',
+      duration: 'PT18M45S',
+    },
+
+    downloadLinks: [
+      {
+        platform: 'web',
+        url: 'https://chat.openai.com',
+      },
+      {
+        platform: 'ios',
+        url: 'https://apps.apple.com/app/chatgpt/id6448311069',
+      },
+      {
+        platform: 'android',
+        url: 'https://play.google.com/store/apps/details?id=com.openai.chatgpt',
+      },
+      {
+        platform: 'macos',
+        url: 'https://chat.openai.com',
+      },
+    ],
+
+    summary: 'ChatGPT is an AI assistant that can write, analyze, code, and converse on nearly any topic, powered by OpenAI\'s GPT models.',
+
+    reviewContent: `
+## The AI Revolution in Your Browser
+
+ChatGPT didn't invent large language models, but it made them accessible to everyone. In just months, it became the fastest-growing consumer application in history.
+
+## What It Does Well
+
+Writing assistance, brainstorming, explaining complex topics, coding help, translation, summarization—ChatGPT is genuinely useful across an incredible range of tasks. It's like having a knowledgeable assistant available 24/7.
+
+## GPT-4 vs GPT-3.5
+
+The free tier uses GPT-3.5, which is capable but makes more mistakes. GPT-4 (Plus subscription) is significantly smarter, handles nuance better, and makes fewer errors. The difference is noticeable.
+
+## Custom GPTs and Plugins
+
+Plus subscribers can create custom GPTs and use plugins that connect ChatGPT to external services. This extensibility transforms it from a chatbot into a platform.
+
+## Limitations
+
+ChatGPT can be confidently wrong, has knowledge cutoffs, and shouldn't be trusted for critical facts without verification. It's a tool to augment your thinking, not replace it.
+    `,
+
+    pros: [
+      'Incredibly versatile AI assistant',
+      'Natural conversational interface',
+      'Excellent for writing and coding',
+      'Free tier is very capable',
+      'Continuously improving',
+      'Custom GPTs extend functionality',
+    ],
+    cons: [
+      'Can hallucinate incorrect information',
+      'Knowledge cutoff date',
+      'GPT-4 requires subscription',
+      'Can be slow during peak times',
+      'Privacy considerations for sensitive data',
+    ],
+    verdict: 'A genuinely transformative tool that belongs in everyone\'s toolkit, with appropriate skepticism.',
+
+    rating: {
+      overall: 4.6,
+      usability: 5,
+      performance: 4,
+      features: 4.5,
+      value: 4.5,
+      design: 4.5,
+    },
+    userRatingCount: 125000,
+
+    seo: {
+      title: 'ChatGPT Review 2024: The AI Assistant Everyone Is Using',
+      description: 'Comprehensive ChatGPT review covering GPT-4 vs GPT-3.5, use cases, limitations, and whether Plus is worth the subscription.',
+      ogImage: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop',
+      keywords: ['chatgpt review', 'chatgpt plus', 'openai', 'ai assistant', 'gpt-4'],
+    },
+
+    publishedAt: '2024-01-10T10:00:00Z',
+    updatedAt: '2024-03-28T16:00:00Z',
+    featured: true,
+    editorsPick: true,
+  },
+];
