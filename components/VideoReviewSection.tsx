@@ -51,6 +51,7 @@ export function VideoReviewSection({ video, appName }: VideoReviewSectionProps) 
           <iframe
             src={video.embedUrl}
             title={video.title || `${appName} Video Review`}
+            allow="encrypted-media; fullscreen"
             allowFullScreen
             className="absolute inset-0 w-full h-full"
             loading="lazy"

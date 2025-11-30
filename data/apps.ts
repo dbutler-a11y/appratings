@@ -62,25 +62,25 @@ export const apps: App[] = [
     priceDisplay: 'Free / $10 per month',
 
     iconUrl: '/images/apps/notion/icon.png',
-    heroImageUrl: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=1200&h=600&fit=crop',
+    heroImageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/0a/68/2a0a6840-6f65-41c0-87ad-f3b0360d9c0b/1762b181-05a3-4dbc-98c4-819b6303c157_1_IPHONE_55.png/392x696bb.png',
     screenshots: [
       {
-        src: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop',
-        alt: 'Notion dashboard with project boards',
-        caption: 'Flexible workspace for any project',
-        platform: 'web',
-      },
-      {
-        src: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop',
-        alt: 'Notion mobile app on iOS',
-        caption: 'Full functionality on mobile',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/0a/68/2a0a6840-6f65-41c0-87ad-f3b0360d9c0b/1762b181-05a3-4dbc-98c4-819b6303c157_1_IPHONE_55.png/392x696bb.png',
+        alt: 'Notion home view',
+        caption: 'Your workspace at a glance',
         platform: 'ios',
       },
       {
-        src: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=600&fit=crop',
-        alt: 'Notion database view',
-        caption: 'Powerful database capabilities',
-        platform: 'web',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/ae/52/69ae521d-1315-0bb8-73eb-796c2ed99c72/61017181-8d8e-42b3-bb77-304faf5ad9b3_2_IPHONE_55.png/392x696bb.png',
+        alt: 'Notion pages and databases',
+        caption: 'Organize with pages and databases',
+        platform: 'ios',
+      },
+      {
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/b2/39/adb2394e-0e19-0e2c-698f-d54e5ea3b3cd/e83ee545-11d8-4e9c-858e-6513d88ea711_3_IPHONE_55.png/392x696bb.png',
+        alt: 'Notion AI features',
+        caption: 'AI-powered productivity',
+        platform: 'ios',
       },
     ],
 
@@ -192,16 +192,22 @@ For individuals and small teams who want flexibility over rigid structure, Notio
     priceDisplay: 'Free / $49.99 per year',
 
     iconUrl: '/images/apps/darkroom/icon.png',
-    heroImageUrl: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1200&h=600&fit=crop',
+    heroImageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/7b/bc/e47bbcef-41ba-7fa0-4c6f-72efbd1be995/860502cb-b72a-474e-b89c-bcec75b94d34_55-1-masks.jpg/392x696bb.jpg',
     screenshots: [
       {
-        src: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&h=600&fit=crop',
-        alt: 'Darkroom editing interface',
-        caption: 'Professional-grade editing tools',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/7b/bc/e47bbcef-41ba-7fa0-4c6f-72efbd1be995/860502cb-b72a-474e-b89c-bcec75b94d34_55-1-masks.jpg/392x696bb.jpg',
+        alt: 'Darkroom AI masks',
+        caption: 'AI-powered masking tools',
         platform: 'ios',
       },
       {
-        src: 'https://images.unsplash.com/photo-1493863641943-9b68992a8d07?w=800&h=600&fit=crop',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/61/08/246108f9-1efe-3b43-59e9-6fabd260e122/9b66e9ba-536c-4b30-bc2e-5afa6288b487_55-3-presets.jpg/392x696bb.jpg',
+        alt: 'Darkroom presets',
+        caption: 'Professional presets library',
+        platform: 'ios',
+      },
+      {
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/a8/51/85a85115-2b15-893b-2c50-327248c20758/68fdf098-026b-433c-b508-76c786090b39_55-6-batch.jpg/392x696bb.jpg',
         alt: 'Darkroom batch editing',
         caption: 'Batch edit hundreds of photos',
         platform: 'ios',
@@ -210,10 +216,10 @@ For individuals and small teams who want flexibility over rigid structure, Notio
 
     videoReview: {
       provider: 'youtube',
-      embedUrl: 'https://www.youtube.com/embed/m_MaJDK3VNE',
-      videoId: 'm_MaJDK3VNE',
-      title: 'Darkroom Photo Editor Review - Best iPhone Photo Editor?',
-      duration: 'PT10M45S',
+      embedUrl: 'https://www.youtube.com/embed/vdxETxyLQtY',
+      videoId: 'vdxETxyLQtY',
+      title: 'Darkroom Photo & Video Editor Review',
+      duration: 'PT10M00S',
     },
 
     downloadLinks: [
@@ -322,10 +328,10 @@ If you're serious about mobile photography and want desktop-class editing withou
 
     videoReview: {
       provider: 'youtube',
-      embedUrl: 'https://www.youtube.com/embed/3H2d6lLO4P8',
-      videoId: '3H2d6lLO4P8',
-      title: 'Runway Gen-3 Alpha - Complete Guide to AI Video Generation',
-      duration: 'PT12M30S',
+      embedUrl: 'https://www.youtube.com/embed/hk8l3ISfwRM',
+      videoId: 'hk8l3ISfwRM',
+      title: 'Runway ML Tutorial - How To Use The Best AI Video Generator of 2024',
+      duration: 'PT15M00S',
     },
 
     downloadLinks: [
@@ -534,18 +540,24 @@ Unlike competitors, Figma's free tier is genuinely usable. Three projects, unlim
     priceDisplay: 'Free / $8.75 per user/month',
 
     iconUrl: '/images/apps/slack/icon.png',
-    heroImageUrl: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&h=600&fit=crop',
+    heroImageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/e6/08/38e6085c-6bf9-e0a0-e432-055beee537cb/93f78483-ed6a-4f45-bf05-4308c2ecb92f_iOS-iPhone6.5-Screenshot01.en-GB@3x-1.png/392x696bb.png',
     screenshots: [
       {
-        src: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/e6/08/38e6085c-6bf9-e0a0-e432-055beee537cb/93f78483-ed6a-4f45-bf05-4308c2ecb92f_iOS-iPhone6.5-Screenshot01.en-GB@3x-1.png/392x696bb.png',
         alt: 'Slack messaging interface',
         caption: 'Organized conversations in channels',
-        platform: 'web',
+        platform: 'ios',
       },
       {
-        src: 'https://images.unsplash.com/photo-1552581234-26160f608093?w=800&h=600&fit=crop',
-        alt: 'Slack on mobile',
-        caption: 'Stay connected on the go',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/ca/6b/5dca6b63-1062-1f70-b072-84cf8cd5fd8d/9776126f-a44a-4ecb-aa3e-ac35f8128ba0_iOS-iPhone5.5-Screenshot02.en-GB@3x.png/392x696bb.png',
+        alt: 'Slack channels and DMs',
+        caption: 'Stay connected with your team',
+        platform: 'ios',
+      },
+      {
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/08/e1/8a08e19d-4d6b-cd4e-05b3-d4b45bd9f075/b56b1f8b-323c-44c7-a6ce-f1b8c497af8c_iOS-iPhone5.5-Screenshot03.en-GB@3x.png/392x696bb.png',
+        alt: 'Slack huddles',
+        caption: 'Quick audio and video calls',
         platform: 'ios',
       },
     ],
@@ -660,19 +672,25 @@ Slack's biggest weakness is also its strength. Without discipline, it becomes a 
     priceDisplay: 'Free / $50 per year for Sync',
 
     iconUrl: '/images/apps/obsidian/icon.png',
-    heroImageUrl: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=1200&h=600&fit=crop',
+    heroImageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/d2/2f/09/d22f093d-b50c-3bb2-6277-f119c1e71986/d3dde89e-453a-4ae6-bbd1-cacd5424afb5_1.png/392x696bb.png',
     screenshots: [
       {
-        src: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=600&fit=crop',
-        alt: 'Obsidian graph view',
-        caption: 'Visualize connections between notes',
-        platform: 'desktop',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/d2/2f/09/d22f093d-b50c-3bb2-6277-f119c1e71986/d3dde89e-453a-4ae6-bbd1-cacd5424afb5_1.png/392x696bb.png',
+        alt: 'Obsidian note editor',
+        caption: 'Write and link your notes',
+        platform: 'ios',
       },
       {
-        src: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&h=600&fit=crop',
-        alt: 'Obsidian editor',
-        caption: 'Clean markdown editing experience',
-        platform: 'desktop',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/00/aa/7a/00aa7a68-e75b-e84c-9359-8215e131c432/9ee95548-8b05-406b-a4f9-f9d2b42e8cb0_2.png/392x696bb.png',
+        alt: 'Obsidian graph view',
+        caption: 'Visualize connections between notes',
+        platform: 'ios',
+      },
+      {
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/aa/1e/50/aa1e503e-a96a-70af-d352-3d613c293cef/769f649e-06d2-4d9b-8184-053fc5c53da8_3.png/392x696bb.png',
+        alt: 'Obsidian plugins',
+        caption: 'Extend with community plugins',
+        platform: 'ios',
       },
     ],
 
@@ -787,28 +805,34 @@ Obsidian rewards investment. The more you learn about linking, templates, and pl
     priceDisplay: 'Free / $5 per month',
 
     iconUrl: '/images/apps/todoist/icon.png',
-    heroImageUrl: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&h=600&fit=crop',
+    heroImageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/bb/ad/59bbaddb-ba3b-c6f1-e427-b6aac515bab0/1-Organize.png/800x500bb.jpg',
     screenshots: [
       {
-        src: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop',
-        alt: 'Todoist task list',
-        caption: 'Clean, focused task management',
-        platform: 'web',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/bb/ad/59bbaddb-ba3b-c6f1-e427-b6aac515bab0/1-Organize.png/800x500bb.jpg',
+        alt: 'Todoist organize tasks',
+        caption: 'Organize your tasks effortlessly',
+        platform: 'ios',
       },
       {
-        src: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=800&h=600&fit=crop',
-        alt: 'Todoist projects view',
-        caption: 'Organize tasks into projects',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/5d/ec/395decb0-8edf-75e4-7d2c-73f88a8ef61a/2-Achieve.png/800x500bb.jpg',
+        alt: 'Todoist achieve goals',
+        caption: 'Achieve your goals with clarity',
+        platform: 'ios',
+      },
+      {
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/e0/bd/59e0bd50-987c-1bd8-8f12-91c180b851b1/4-Quick_Add.png/800x500bb.jpg',
+        alt: 'Todoist quick add',
+        caption: 'Quickly add tasks with natural language',
         platform: 'ios',
       },
     ],
 
     videoReview: {
       provider: 'youtube',
-      embedUrl: 'https://www.youtube.com/embed/vxDNkAhKtic',
-      videoId: 'vxDNkAhKtic',
-      title: 'Todoist Tutorial - Complete Beginners Guide',
-      duration: 'PT15M45S',
+      embedUrl: 'https://www.youtube.com/embed/v-g2GUIBihc',
+      videoId: 'v-g2GUIBihc',
+      title: 'Todoist Tutorial for Beginners',
+      duration: 'PT15M00S',
     },
 
     downloadLinks: [
@@ -914,28 +938,34 @@ Todoist is a task manager, not a project management tool. No Gantt charts, no ti
     priceDisplay: 'Free / $10 per user/month',
 
     iconUrl: '/images/apps/linear/icon.png',
-    heroImageUrl: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1200&h=600&fit=crop',
+    heroImageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/0f/02/e60f023d-a9df-b584-e0a4-a0a762e44024/f3bb37e8-17f5-4e1b-94f1-31ad08d60adb_Hero.png/576x768bb.png',
     screenshots: [
       {
-        src: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&h=600&fit=crop',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/0f/02/e60f023d-a9df-b584-e0a4-a0a762e44024/f3bb37e8-17f5-4e1b-94f1-31ad08d60adb_Hero.png/576x768bb.png',
         alt: 'Linear issue tracking',
         caption: 'Beautiful issue tracking interface',
-        platform: 'web',
+        platform: 'ios',
       },
       {
-        src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop',
-        alt: 'Linear roadmap view',
-        caption: 'Plan your product roadmap',
-        platform: 'web',
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/77/5e/23775e89-e22f-617a-3b74-f88115700530/bb111362-8e3f-428d-bdf1-648b6dc1ed5e_Inbox.png/576x768bb.png',
+        alt: 'Linear inbox view',
+        caption: 'Triage issues from your inbox',
+        platform: 'ios',
+      },
+      {
+        src: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/07/c1/8f07c1b4-70dd-0d9d-759c-e18438a78d39/4340d547-c543-4774-b4df-2f88ccec6fea_Issue.png/576x768bb.png',
+        alt: 'Linear issue detail',
+        caption: 'Detailed issue management',
+        platform: 'ios',
       },
     ],
 
     videoReview: {
       provider: 'youtube',
-      embedUrl: 'https://www.youtube.com/embed/aOQDfdOuD4w',
-      videoId: 'aOQDfdOuD4w',
-      title: 'Linear App Tutorial - Complete Project Management Guide',
-      duration: 'PT14M20S',
+      embedUrl: 'https://www.youtube.com/embed/qaR4jRrc1Iw',
+      videoId: 'qaR4jRrc1Iw',
+      title: 'Linear App Tutorial - Project Management Guide',
+      duration: 'PT12M00S',
     },
 
     downloadLinks: [
@@ -1135,6 +1165,132 @@ ChatGPT can be confidently wrong, has knowledge cutoffs, and shouldn't be truste
 
     publishedAt: '2024-01-10T10:00:00Z',
     updatedAt: '2024-03-28T16:00:00Z',
+    featured: true,
+    editorsPick: true,
+  },
+
+  // ─────────────────────────────────────────────────────────────────
+  // VIDBUZZ - AI Tools
+  // ─────────────────────────────────────────────────────────────────
+  {
+    id: 'vidbuzz-010',
+    slug: 'vidbuzz',
+    name: 'VidBuzz',
+    developer: 'VidBuzz',
+    developerUrl: 'https://vidbuzz.io',
+
+    category: 'ai-tools',
+    tags: ['ai-powered', 'free-tier'],
+
+    pricing: 'freemium',
+    priceDisplay: 'Free tier / Premium plans available',
+
+    iconUrl: '/images/apps/vidbuzz/icon.png',
+    heroImageUrl: '/images/apps/vidbuzz/screenshot1.png',
+    screenshots: [
+      {
+        src: '/images/apps/vidbuzz/screenshot1.png',
+        alt: 'VidBuzz dashboard with TikTok and Instagram discovery',
+        caption: 'Discover trending content across platforms',
+        platform: 'web',
+      },
+      {
+        src: '/images/apps/vidbuzz/screenshot2.png',
+        alt: 'VidBuzz TikTok content discovery and filtering',
+        caption: 'Find viral content with advanced filters',
+        platform: 'web',
+      },
+      {
+        src: '/images/apps/vidbuzz/screenshot3.png',
+        alt: 'VidBuzz AI Canvas character creation mode',
+        caption: 'Create custom AI characters with Character Mode',
+        platform: 'web',
+      },
+    ],
+
+    videoReview: {
+      provider: 'other',
+      embedUrl: 'https://app.heygen.com/embedded-player/29d93696590a4c15ad680127d7b109d7',
+      videoId: '29d93696590a4c15ad680127d7b109d7',
+      title: 'VidBuzz Review by Samira - AI Video Creation Platform',
+      duration: 'PT0M27S',
+    },
+
+    downloadLinks: [
+      {
+        platform: 'web',
+        url: 'https://vidbuzz.io',
+        label: 'Try VidBuzz Free',
+      },
+    ],
+
+    summary: 'VidBuzz is an AI video creation platform that lets you build custom digital characters, give them unique voices, and create professional videos at scale without animation skills.',
+
+    reviewContent: `
+## Overview
+
+VidBuzz is an AI video creation platform that lets you build custom digital characters. You can design how they look, give them a unique voice, and use them to create videos at scale.
+
+Think product demos, social media content, educational videos, or even customer support avatars. The best part? You don't need any animation or video editing skills.
+
+## Key Features
+
+### Character Customization
+Create characters that match your brand identity. Choose their appearance, style, and personality. VidBuzz gives you full control over how your digital avatar looks and behaves.
+
+### Voice Integration
+VidBuzz works with voice platforms like Eleven Labs, so your character sounds exactly how you want. This integration means you can create natural, expressive voices that bring your characters to life.
+
+### Script to Video
+Just type what you want your character to say, and VidBuzz generates the video. Simple as that. No need for complex animation software or video editing skills.
+
+### Scalability
+Need ten videos or a hundred? The platform handles it without breaking a sweat. This makes VidBuzz ideal for content creators and businesses who need to produce video content regularly.
+
+## Who Is It For?
+
+VidBuzz is perfect for content creators who want a consistent on-screen presence without being on camera. It's great for businesses looking to scale their video marketing. And it's ideal for anyone who wants to experiment with AI-powered storytelling.
+
+## The Verdict
+
+The learning curve can be steep at first, and premium features require a subscription. But for what it delivers — custom AI characters, professional-quality output, and serious time savings — it's absolutely worth exploring.
+    `,
+
+    pros: [
+      'Create custom AI characters that match your brand',
+      'Integrates with voice platforms like Eleven Labs',
+      'No animation or video editing skills required',
+      'Scale video production efficiently',
+      'Script-to-video workflow is intuitive',
+      'Great for consistent on-screen presence',
+    ],
+    cons: [
+      'Learning curve can be steep initially',
+      'Premium features require subscription',
+      'Character quality depends on input assets',
+      'Limited compared to professional animation studios',
+    ],
+    verdict: 'An excellent platform for creators and businesses who want to scale AI video content with custom digital characters.',
+
+    rating: {
+      overall: 4.5,
+      usability: 4,
+      performance: 4.5,
+      features: 4.5,
+      value: 4,
+      design: 4.5,
+    },
+    userRatingCount: 2100,
+
+    seo: {
+      title: 'VidBuzz Review 2024: AI Video Creation with Custom Characters',
+      description: 'Complete VidBuzz review covering AI character creation, voice integration, and how to create professional videos at scale.',
+      ogImage: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop',
+      keywords: ['vidbuzz review', 'ai video creator', 'digital avatar', 'ai characters', 'video marketing'],
+    },
+
+    publishedAt: '2024-11-30T10:00:00Z',
+    updatedAt: '2024-11-30T10:00:00Z',
     featured: true,
     editorsPick: true,
   },
